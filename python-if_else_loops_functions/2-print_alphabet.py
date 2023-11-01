@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-for i in range(97, 123):
-    print(chr(i).format(), end="")
+alphabet = ''.join([chr(letra) for letra in range(ord('a'), ord('z') + 1)])
+formatted_alphabet = "{}".format(alphabet)
+print(formatted_alphabet, end='')
