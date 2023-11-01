@@ -1,7 +1,8 @@
 #!/usr/bin/python3
+
 if __name__ == "__main__":
-    import sys, math
-    result = 0
-    for i in sys.argv:
-        result += int(i)
-        print("{}".format(result))
+    from sys import argv
+
+    argumentos = argv[1:]
+    suma = sum(map(int, argumentos))
+    print(suma)
