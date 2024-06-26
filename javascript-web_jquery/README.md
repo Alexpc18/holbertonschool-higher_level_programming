@@ -1,0 +1,1 @@
+jQuery is a fast, lightweight JavaScript library that simplifies HTML DOM manipulation, event handling, and animation. It provides an easy-to-use API compatible with various browsers, making web development more efficient.
